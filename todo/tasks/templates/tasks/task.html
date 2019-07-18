@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}Tarefa{% endblock%}
+
+{% block content %}
+<div class="offset-1 col-10 list-div">
+    <h1><b>{{task.title}}</b></h1>
+    <p>Criado em: {{task.created_at}}</p>
+    <br>
+    <h5><b>Descrição da tarefa:</b></h5>
+    <p>{{task.description}}</p> 
+    <br><br>
+    {% if task.done == 'doing' %}
+        <p><b>Estado da tarefa: </b>Por concluir</p>
+    {% else %}
+        <p><b>Estado da tarefa: </b>Concluida</p>
+    {% endif %}
+</div>
+{% endblock%}
