@@ -1,6 +1,6 @@
 # djangoToDoList
 
-Pequeno projecto feito com o intuido de aprender a tranalhar com a framework Django. Neste projecto foi criado um site onde podemos marcar tarefas que temos para fazer, marcar a mesma como concluida ou por concluir, para além de poder editar e eliminar cada uma das tarefas.
+Pequeno projecto feito com o intuito de aprender a trabalhar com a framework Django. Neste projecto foi criado um site onde podemos marcar tarefas que temos para fazer, marcar a mesma como concluída ou por concluir, para além de poder editar e eliminar cada uma das tarefas.
 
 # Screenshots
 
